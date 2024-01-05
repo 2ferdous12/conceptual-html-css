@@ -19,7 +19,7 @@ h1{
     letter-spacing: 10px;
 }
 
-.div{
+.div,#cow-type{
     background-color: aquamarine;
     margin: 60px auto;
     width: 80%;
@@ -40,4 +40,15 @@ h1{
     border-right: 0;
     padding-bottom: 50px;
     margin-bottom: 50px;
+}
+
+.cow-type{
+    background-color: aquamarine;
+    margin: 60px auto;
+    width: 80%;
+    border-width: 15px;
+    padding: 60px;
+    border-color: yellow;
+    border-style: groove;
+    margin: 20px;
 }
