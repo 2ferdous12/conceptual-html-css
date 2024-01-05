@@ -4,7 +4,7 @@ h1{
 
 .hero{
     background-image: url('../Cow_female_black_white.jpg');
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     width: 100%;
 }
