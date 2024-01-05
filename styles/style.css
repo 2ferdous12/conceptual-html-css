@@ -7,6 +7,8 @@ h1{
     height: 100%;
     background-size: cover;
     width: 100%;
+    background: linear-gradient(red green);
+    clip-path: polygon(33% 3%, 100% 72%, 0 88%);
 }
 .hero h1{
     color: azure;
@@ -17,6 +19,7 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     word-spacing: 10px;
     letter-spacing: 10px;
+    clip-path: polygon(33% 3%, 100% 72%, 0 88%);
 }
 
 .div,#cow-type{
@@ -27,6 +30,7 @@ h1{
     padding: 60px;
     border-color: yellow;
     border-style: groove;
+    background: linear-gradient(45deg,rgb(204, 95, 95) , rgb(62, 182, 62));
 }
 
 .div h2{
@@ -40,10 +44,11 @@ h1{
     border-right: 0;
     padding-bottom: 50px;
     margin-bottom: 50px;
+    background: linear-gradient(rgb(204, 95, 95) , rgb(62, 182, 62));
 }
 
 .cow-type{
-    background-color: aquamarine;
+   
     margin: 60px auto;
     width: 80%;
     border-width: 15px;
@@ -51,4 +56,10 @@ h1{
     border-color: yellow;
     border-style: groove;
     margin: 20px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: space-around;
+    background: linear-gradient(rgb(204, 95, 95) , rgb(62, 182, 62));
 }
